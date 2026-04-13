@@ -9,7 +9,7 @@
 | Solution                  | Partial AUC (pAUC) | Rank      | Notes |
 |---------------------------|--------------------|-----------|----------------------------------------------------------|
 | **1st Place (Original)**  | **0.17706**        | 1st       | Pure tabular CatBoost with extensive feature engineering |
-| **2nd Place (Original)**  | Top-2 (private)    | 2nd       | Multi-model CV + GBDT meta-learner |
+| **2nd Place (Original)**  | Top-2 (private)    | 2nd       | Multi-model Computer Vision + GBDT meta-learner |
 | **Combined Ensemble**     | **0.19553**        | —         | Fusion of both solutions (this notebook) |
 
 The combined version improves the 1st-place score by **+0.01847** pAUC through the integration of strong DNN predictions from 
@@ -23,7 +23,7 @@ This repository contains:
 - Adapted original 1st-place and 2nd-place notebooks (originally developed in the Kaggle environment) to run efficiently in Google Colab
 - A new **combined ensemble** that merges the strengths of both approaches
 
-The solution is a **hybrid CV + tabular ensemble**:
+The solution is a **hybrid Computer Vision + tabular ensemble**:
 - Multiple high-performing image models (from 2nd place) generate powerful meta-features
 - These are fed into an extremely rich tabular pipeline (from 1st place) with patient-level normalization, clustering, outlier detection,
   and OOF fusion
