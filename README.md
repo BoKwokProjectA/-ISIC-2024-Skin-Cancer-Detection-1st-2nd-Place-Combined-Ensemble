@@ -1,4 +1,4 @@
-# ISIC 2024 Skin Cancer Detection — 1st & 2nd Place Combined Solution
+# ISIC 2024 Skin Cancer Detection — 1st & 2nd Place Solutions Combined Ensemble
 
 **Competition**: [ISIC 2024 - Skin Cancer Detection with 3D Total Body Photography](https://www.kaggle.com/competitions/isic-2024-challenge)  
 **Metric**: Partial AUC (pAUC) at 80% TPR (official competition metric)  
